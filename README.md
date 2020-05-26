@@ -7,6 +7,8 @@ LiveData、ViewModel、DataBinding
 
 简易到 其实是个Demo
 
+如果有帮助到你 欢迎start 有建议 欢迎Issues
+
 <img src="image/login.jpeg" width="32%" />
 
 <img src="image/home.jpeg" width="32%" />
