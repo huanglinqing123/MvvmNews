@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MvvmNews</string>
+    <string name="title_home">首页</string>
+    <string name="title_mine">我的</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">number</string>
+    <string name="prompt_password">请输入密码</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">登录</string>
+    <string name="enter_pass">请输入密码</string>
+    <string name="enter_account">请输入用户名</string>
+</resources>
