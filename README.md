@@ -7,10 +7,10 @@ LiveData、ViewModel、DataBinding
 
 简易到 其实是个Demo
 
-![avatar](image/login.png)
+![avatar](/image/login.png)
 
-![avatar](image/home.png)
+![avatar](/image/home.png)
 
 
-![avatar](image/detail.png)
+![avatar](/image/detail.png)
 
