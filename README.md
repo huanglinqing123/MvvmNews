@@ -7,10 +7,9 @@ LiveData、ViewModel、DataBinding
 
 简易到 其实是个Demo
 
-![avatar](/image/login.png)
+<img src="image/login.png" width="32%" />
 
-![avatar](/image/home.png)
+<img src="image/home.png" width="32%" />
 
-
-![avatar](/image/detail.png)
+<img src="image/detail.png" width="32%" />
 
