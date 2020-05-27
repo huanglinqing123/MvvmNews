@@ -12,7 +12,7 @@ LiveData、ViewModel、DataBinding
 配套博客：
 [Android JetPack系列文章](https://huanglinqing.blog.csdn.net/article/details/106215492)
 
-<img src="image/dh.jpeg" width="32%" />
+<img src="image/dh.png" width="32%" />
 
 
 
