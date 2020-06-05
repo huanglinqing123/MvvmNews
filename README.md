@@ -35,6 +35,7 @@ LiveData、ViewModel、DataBinding
 常规设计应用 可以使用 能够根据当前主题自动切换颜色的主题属性
 
 如：
+
 ```
 android:textColor="?android:attr/textColorPrimary"
 ```
