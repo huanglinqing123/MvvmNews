@@ -18,6 +18,8 @@ LiveData、ViewModel、DataBinding
 
 项目运行效果图如下所示：
 
+登录账号为：15755024056 123456
+
 
 <img src="image/login.jpeg" width="32%" />
 
