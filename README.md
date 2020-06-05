@@ -34,7 +34,8 @@ LiveData、ViewModel、DataBinding
 
 <li>适配Android Q 暗黑模式</li>
 
-一般应用都需使用 差异化编程  在values-night 配置颜色资源
+一般应用都需使用 差异化编程  在values-night 配置颜色资源<br>
+
 常规设计应用 可以使用 能够根据当前主题自动切换颜色的主题属性
 
 如：
