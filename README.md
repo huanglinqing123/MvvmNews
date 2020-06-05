@@ -27,9 +27,12 @@ LiveData、ViewModel、DataBinding
 
 <img src="image/detail.jpeg" width="32%" />
 
+
+# 更新日志
+
 ### 2020.06.05
 
-<li>.适配Android Q 暗黑模式</li>
+<li>适配Android Q 暗黑模式</li>
 
 一般应用都需使用 差异化编程  在values-night 配置颜色资源
 常规设计应用 可以使用 能够根据当前主题自动切换颜色的主题属性
@@ -39,3 +42,7 @@ LiveData、ViewModel、DataBinding
 ```
 android:textColor="?android:attr/textColorPrimary"
 ```
+暗黑模式下运行效果图如下所示：
+
+<img src="image/dark_home.jpg" width="32%" />
+

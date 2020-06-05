@@ -2,16 +2,23 @@ package com.example.mvvmnews;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
+import com.example.mvvmnews.util.DeviceUtil;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 public class MainActivity extends AppCompatActivity {
+
+    private FloatingActionButton btnChangeTheme;
 
     @SuppressLint("WrongConstant")
     @Override
@@ -33,6 +40,20 @@ public class MainActivity extends AppCompatActivity {
         navView.setLabelVisibilityMode(0);
         //默认清除动画（显示文字）
         navView.setLabelVisibilityMode(1);
+        btnChangeTheme = findViewById(R.id.btn_change_theme);
+        btnChangeTheme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (DeviceUtil.getDarkModeStatus(MainActivity.this)) {
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                } else {
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                }
+
+            }
+        });
+
+
     }
 
 }
